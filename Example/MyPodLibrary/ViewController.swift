@@ -7,12 +7,14 @@
 //
 
 import UIKit
-
+import MyPodLibrary
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        let printer = Printer()
+        printer.printLog("Hello world")
     }
 
     override func didReceiveMemoryWarning() {
